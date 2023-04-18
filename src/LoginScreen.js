@@ -31,4 +31,5 @@ const LoginScreen = () => {
         </form>
     </div>
  )
-}
+};
+export default LoginScreen;
