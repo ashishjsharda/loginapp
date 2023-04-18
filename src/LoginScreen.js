@@ -8,7 +8,7 @@ const LoginScreen = () => {
  const handleSubmit = (event) => {
     event.preventDefault();
     if (userName === "admin" && password === "admin") {
-      console.log("Login successful with ${userName} and ${password}")
+      console.log(`Login successful with ${userName} and ${password}`)
     } else {
       setError("Invalid username or password");
     }
